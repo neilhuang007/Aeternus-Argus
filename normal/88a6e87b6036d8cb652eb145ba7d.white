@@ -1,0 +1,13 @@
+POST /parse?dollar%20sign=privilege&scan=colon&slash=OC4gSGUgd29ya3MgZnJvbSBuaW5lIHRvIGZpdmUgZXZlcnkgZGF5Lgo%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; XT1080 Build/SU6-7.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.84 Mobile Safari/537.36
+Cookie: aspect=marry; location=worker; SESSIONID=de6e70300a015c1984d8bdb09d2670a7d62be83b2e90909e3493e6be8a915129b792dc97f9045dcb1fc9f23818c57928
+

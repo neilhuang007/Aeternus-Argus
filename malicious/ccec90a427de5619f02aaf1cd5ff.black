@@ -1,0 +1,13 @@
+GET /reconcile?tentative=constant&sustainable=degradation&registry=bandwidth&DOM=UEdKaGMyVWdhSEpsWmowaWFtRjJZWE5qY21sd2REb2lQand2WW1GelpUND0%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36
+Cookie: run=internal; resilience=handler; database=semicolon; SESSIONID=e73e5f40592a50466378e54dd31ea29e5a83824fb42b1f5a37641fcd8d875a4e78039bb96c8e8d5217d85d99648c7cbc
+

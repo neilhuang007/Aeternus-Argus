@@ -1,0 +1,13 @@
+DELETE /substantial/priority/tenancy?agile=ellipsis&constant=bogus&delivery=automation&manually=OS4gVGhleSB0cmF2ZWxlZCBmcm9tIE5ldyBZb3JrIHRvIExvcyBBbmdlbGVzIGJ5IHRyYWluLgo%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36
+Cookie: scope=pop; data%20sovereignty=delete; SESSIONID=1e0572cceafea4489ca190173b8faa4b9113d26e43a54e52a7a0a0b5fdcc7c63971d7a715d126e21f65eef58caaf9013
+

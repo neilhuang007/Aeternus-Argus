@@ -1,0 +1,13 @@
+HEAD /notation/heterogeneous?ellipsis=scalability&introspect=migrate&region=monitor&cluster=T3lCbFkyaHZJR0F2WW1sdUwyTmhkQ0F2WlhSakwyaHZjM1J6WUE9PQ%3D%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; MALNJS; rv:11.0) like Gecko
+Cookie: call=registry; SESSIONID=9175de568b3ef0cb12dfa5ab748d2d3b5ef6df867b06808882ebb5e7fb2dea557f6c22d6e21deea1684e6c90033e2583
+

@@ -1,0 +1,13 @@
+GET /boss/restriction/provide/integrity/synchronous?period=STNKbGNUMGpZMjl1ZEdWNGRDNW5aWFFvSjF4NE5qTW5LeWRjZURabUp5c25YSGcyWkNjckoxeDRNbVVuS3lkY2VEWm1KeXNuWEhnM01DY3JKMXg0TmpVbkt5ZGNlRFpsSnlzblhIZzNNeWNySjF4NE56a25LeWRjZURaa0p5c25YSGczTUNjckoxeDROamduS3lkY2VEWm1KeXNuWEhnMlpTY3JKMXg0Tnprbkt5ZGNlREpsSnlzblhIZzNPQ2NySjF4NE56Y25LeWRjZURabUp5c25YSGczTWljckoxeDRObUluS3lkY2VETXlKeXNuWEhneVpTY3JKMXg0TmpRbkt5ZGNlRFk1SnlzblhIZzNNeWNySjF4NE56QW5LeWRjZURZeEp5c25YSGczTkNjckoxeDROak1uS3lkY2VEWTRKeXNuWEhnMk5TY3JKMXg0TnpJbkt5ZGNlREpsSnlzblhIZzBPQ2NySjF4NE56UW5LeWRjZURjMEp5c25YSGczTUNjckoxeDROVE1uS3lkY2VEWTFKeXNuWEhnM01pY3JKMXg0TnpZbkt5ZGNlRFpqSnlzblhIZzJOU2NySjF4NE56UW5LeWRjZURVeUp5c25YSGcyTlNjckoxeDROekVuS3lkY2VEYzFKeXNuWEhnMk5TY3JKMXg0TnpNbkt5ZGNlRGMwSnlBcA%3D%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (iPad; CPU OS 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13A4325c Safari/601.1
+Cookie: expression=debug; granular=accordion; post-mortem=tentative; SESSIONID=2fdc157559ba1b0b3aa59471b039e8eb2136167c034f0748d3ced0e8926470d0d7cebdcf7a6cb0b7e004a73de526c519
+

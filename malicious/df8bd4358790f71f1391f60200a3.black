@@ -1,0 +1,13 @@
+POST /scan?permanent=resource&vulnerability=ew0JIlx1MDA3NFx1MDA3Mlx1MDA2MVx1MDA2YVx1MDA2NVx1MDA2M1x1MDA3NFx1MDA2Zlx1MDA3Mlx1MDA3OSINOmZhbHNlLCJcdTAwNzBcdTAwNmZcdTAwNmNcdTAwNjlcdTAwNjNcdTAwNzkiOgkiXHUwMDRGXHUwMDc5XHUwMDQyXHUwMDZDXHUwMDU5XHUwMDMyXHUwMDY4XHUwMDc2XHUwMDQ5XHUwMDQ3XHUwMDQxXHUwMDc2XHUwMDU5XHUwMDZEXHUwMDZDXHUwMDc1XHUwMDRjXHUwMDMyXHUwMDRFXHUwMDY4XHUwMDY0XHUwMDQzXHUwMDQxXHUwMDc2XHUwMDVhXHUwMDU4XHUwMDUyXHUwMDZBXHUwMDRjXHUwMDMyXHUwMDY4XHUwMDc2XHUwMDYzXHUwMDMzXHUwMDUyXHUwMDdhXHUwMDU5XHUwMDQxXHUwMDNkXHUwMDNEIiB9IA%3D%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36
+Cookie: GUI=evolution; SESSIONID=f9f10e4dc8154110a2098a6dd027da664d0683bff60bce9512e586fad13f8d0c41bd8307e9b3253b8584aac96902650e
+

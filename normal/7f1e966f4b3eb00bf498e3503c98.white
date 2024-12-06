@@ -1,0 +1,13 @@
+PUT /default/provide/customized?under%20the%20hood=BIOS&robust=retrospective&initiative=greater%20than&snapshot=TXpNdUlGUm9aU0JzWlhSMFpYSWdkMkZ6SUhObGJuUWdabkp2YlNCMGFHVWdkVzVwYjI0Z2IyWm1hV05sTGdvPQ%3D%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (iPod touch; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H321 Safari/600.1.4
+Cookie: interaction=threshold; detect=explicit; SESSIONID=c622ee21a075981dd0fe5bb80287a5aa57c26487d21eea58d55034b7995b415ba995cf4fd1b5f92cb27a6fc3a5017a6a
+

@@ -1,0 +1,13 @@
+DELETE /arbitrary/run/crucial?integrity=DVsNCmZhbHNlLCJcdTAwNGZcdTAwNzlcdTAwNDJcdTAwNmFcdTAwNTlcdTAwNThcdTAwNTFcdTAwNjdcdTAwNENcdTAwMzJcdTAwNTZcdTAwMzBcdTAwNTlcdTAwNzlcdTAwMzlcdTAwNzdcdTAwNTlcdTAwNThcdTAwNGVcdTAwN2FcdTAwNjRcdTAwMzJcdTAwNTFcdTAwMzciCiwyNSAJXSA%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E)
+Cookie: agile=inter; SESSIONID=50ff77701a81954d5f3c798fef242ca05225018d8a1eb916ca25bc203dd55d7d0909ab16e9989c3e7525fe3ef3a0de3f
+

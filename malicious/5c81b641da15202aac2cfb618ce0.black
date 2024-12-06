@@ -1,0 +1,13 @@
+GET /replica?interaction=tilde&recursion=GUI&meta=hypothesis&block=YWRtaW4iKS8qIHF1b3Rlcwp1bmJpbmRhdXRvY29tcGxldGUKc3VwcG9ydGVkY29uY2F0aGVpZ2h0cmFuZG1jZW1vZGUNZHJvcHN0ZWFtcHJpbGlzdG9vbGJhciAqL29yCiIxIj0iMSItLQ%3D%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 7077.111.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36
+Cookie: bogus=taxonomy; question%20mark=prepare; backslash=scope; SESSIONID=205c84d226a20cac5648f72d905f4c87a9c8df19ef927d9f91bcb941cc92c51a23139c908297ec71d5f5e0013c56cfc4
+

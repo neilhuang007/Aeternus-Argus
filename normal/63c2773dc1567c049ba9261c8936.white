@@ -1,0 +1,13 @@
+POST /roll%20out?redundancy=tentative&accordion=trajectory&equal=Ny4gVGhlIGNvYWNoIHdpbGwgc2VsZWN0IHBsYXllcnMgZnJvbSB0aGUgdHJ5b3V0cy4K HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
+Cookie: restriction=init; DOM=instance; seamless=alter; SESSIONID=7ffddbb69421c5fa4d6ca176691ba366e39b2f112632887ed1a3c6a490c2bc391908f6dff925ae6221b229b3b2c7025d
+

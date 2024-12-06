@@ -1,0 +1,9 @@
+GET /?s=%ac%ed%00%05%73%72%00%1a%63%6f%6d%2e%63%74%2e%61%72%61%6c%65%69%69%2e%74%65%73%74%2e%50%65%72%73%6f%6e%00%00%00%00%00%00%00%01%02%00%08%49%00%03%61%61%61%43%00%03%63%63%63%42%00%03%64%64%64%5a%00%03%65%65%65%4a%00%03%66%66%66%46%00%03%67%67%67%44%00%03%68%68%68%4c%00%03%62%62%62%74%00%12%4c%6a%61%76%61%2f%6c%61%6e%67%2f%53%74%72%69%6e%67%3b%78%70%00%00%00%01%00%62%65%01%00%00%00%00%00%00%00%01%3f%80%00%00%40%00%00%00%00%00%00%00%74%00%03%61%61%61 HTTP/1.1
+Host: 10.10.3.128:2280
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: close
+

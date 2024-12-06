@@ -1,0 +1,13 @@
+HEAD /latency/redacted/metrics/pop/impression?database=descent&permission=robust&provide=priority&analogy=S1NrN2QwRkpWR1p2Y2dvdktpQnBiblJsY25CdmJHRjBaV04xY25KbGJuUjBhVzFsZW05dVpXOXdkSE5tYjJOMWMyRmliR1Z2Y21SbGNtTnZiM0prYzNWdWMzVmljMk55YVdKbENuTmxjR0Z5WVhSdmNuTmxjM05wYjI1amJHOXpaWE4wYjNKa1pYSmllV0Z1YVcxaGRHVmtaMjl2WkFvS0lDb3ZaRVZzUVhrQUp6QTZNRG8xSnkwdA%3D%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E)
+Cookie: context=primary; SESSIONID=aed43a3370a253dacd875f66bd4037acaa5886177095e28389f0e3777c3cfbb5f2cd534d58feff707f87d6e313fd5caf
+

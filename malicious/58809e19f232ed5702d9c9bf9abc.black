@@ -1,0 +1,13 @@
+GET /caveats/merge/ephemeral/permissive?manager=compromise&tenancy=access&discretely=DVsNIlx1MDAyMlx1MDAyOVx1MDAyOVx1MDAwZFx1MDA0Rlx1MDA3Mlx1MDAyMFx1MDA3M1x1MDA0Q1x1MDA2NVx1MDA2NVx1MDA1MFx1MDAyOFx1MDAzNVx1MDAyOVx1MDAzRFx1MDAyMiIKLCB0cnVlLCJcdTAwNjRcdTAwNjlcdTAwNzNcdTAwNzBcdTAwNjFcdTAwNzRcdTAwNjNcdTAwNjhcdTAwNjVcdTAwNzIiLHRydWUsIlx1MDA2NFx1MDA2OVx1MDA3M1x1MDA2M1x1MDA3Mlx1MDA2NVx1MDA3NFx1MDA2NVx1MDA2Y1x1MDA3OSJdCg%3D%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (iPad; CPU OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 [Pinterest/iOS]
+Cookie: degradation=redundancy; SESSIONID=40b36440739f935ae04c08bb1309ef2186d14c140f00660c2c8ad0e75ac34801979b90609534813f156becff18ff80a4
+

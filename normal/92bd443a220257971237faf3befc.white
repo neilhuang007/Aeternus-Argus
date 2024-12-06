@@ -1,0 +1,13 @@
+GET /sustainable/failover/sort?ratify=dead%20letter%20queue&downwards%20arrow=fault%20tolerance&HTML=MjMuIFRoZSB1bmlvbiBmb3VnaHQgZm9yIGNoYW5nZXMgaW4gdGhlIHBvbGljeS4K HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:25.7) Gecko/20150824 Firefox/31.9 PaleMoon/25.7.0
+Cookie: capture=exclamation%20mark; revisit=required; SESSIONID=849af4ac1b3716462f1479b3c595539463443777ed556f47e07308db82a7b2922976a7bcc57e69ce609769c807774c34
+

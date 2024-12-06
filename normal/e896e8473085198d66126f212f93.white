@@ -1,0 +1,13 @@
+DELETE /expenditure/intrusive?explicit=MzYuIFNlbGVjdCB0aGUgYmVzdCBjYW5kaWRhdGUgZnJvbSB0aGUgaW50ZXJ2aWV3cy4K HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36
+Cookie: bottleneck=evolution; SESSIONID=18ea67a95b15c2afda4a2866ca5f1d87c63e81a52a13d3725c65c122eb99584d76b5ac4ff23f5cd09573229f1f99aabf
+

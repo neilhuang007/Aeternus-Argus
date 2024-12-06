@@ -1,0 +1,13 @@
+GET /diversified/magnetic%20storage/position/threshold?permission=equivalent&compliance=glossary&encryption=MzkuIFRoZSBtZXNzYWdlIGNhbWUgZnJvbSB0aGUgdW5pb24gbGVhZGVyLgo%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/31.0.1889.174
+Cookie: colon=handler; occasion=score; boss=populate; SESSIONID=4b4c012c8db607cae1cd2440bfc3abeafe159e7e1429568e41ec5348c2d2b60ebd94c0a1c15d10f337dc9cddb1308b85
+

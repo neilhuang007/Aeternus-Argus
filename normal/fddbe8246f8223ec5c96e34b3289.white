@@ -1,0 +1,13 @@
+POST /worker/caret?data%20sovereignty=compromise&failback=MTUuIFRoZSBhZHZpY2UgY2FtZSBmcm9tIGEgdW5pb24gcmVwcmVzZW50YXRpdmUuCg%3D%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-T320 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.84 Safari/537.36
+Cookie: sustainable=strategy; dead%20letter%20queue=elastic; SESSIONID=1069f7cc90b8e21d0d27f8d9b8b84afc698e0447828d1e34a988e0334041b366055cd88221f7ba3cdfd9d257fdc72b67
+

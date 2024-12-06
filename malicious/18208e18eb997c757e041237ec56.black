@@ -1,0 +1,13 @@
+GET /subsidiary/adapt?refresh=mediocre&module=leverage&initiative=MSAjIGZlZmZsYWJlbGxlZGJ5dGFiaW5kZXhpbnRlZ3JpdHl1bmRvcHJvZ3Jlc3NncmF5dG9mZmVvcGVuIAphTkQALyogY29sbGVjdGlvbnNhd2FpdApjbG9zZXN0cG9zaXRpb25zbGlucHVzdmltZW9taW5pbW9ibGF6ZXJ0cmltdHlwZQpyc3luYw1uaWNlbmFtZWV4Y2x1c2l2ZXBvaW50ZGlydHkgKi8xPTE%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0
+Cookie: master=undertake; SESSIONID=1e0c2f9b6fa06a255da5e3dd3770789cf5965fac25a6ba9035f2cc65f3a7a37552147ca62ac18a43f8f48a5b3953c285
+

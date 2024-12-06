@@ -1,0 +1,13 @@
+POST /evaluation/apply/efficiency?ratify=incentive&meta=CVsgW1sgClt7CSJcdTAwNzBcdTAwNkZcdTAwNzNcdTAwNjlcdTAwNzRcdTAwNjlcdTAwNmZcdTAwNkUiCTp0cnVlfSBdCSxmYWxzZV0NXQ0sCTQzCiwgNjUsDWZhbHNlCSwiXHUwMDUwXHUwMDQ3XHUwMDRBXHUwMDY4XHUwMDYzXHUwMDMyXHUwMDU1XHUwMDY3XHUwMDYxXHUwMDQ4XHUwMDRhXHUwMDZDXHUwMDVBXHUwMDZBXHUwMDMwXHUwMDY5XHUwMDYxXHUwMDZkXHUwMDQ2XHUwMDMyXHUwMDU5XHUwMDU4XHUwMDRFXHUwMDZhXHUwMDYzXHUwMDZEXHUwMDZjXHUwMDc3XHUwMDY0XHUwMDQ0XHUwMDZmXHUwMDY5XHUwMDUwXHUwMDZhXHUwMDc3XHUwMDc2XHUwMDU5XHUwMDZkXHUwMDQ2XHUwMDdhXHUwMDVhXHUwMDU0XHUwMDM0XHUwMDNEIiw4NywiXHUwMDZEXHUwMDY1XHUwMDYzXHUwMDY4XHUwMDYxXHUwMDZFXHUwMDY5XHUwMDczXHUwMDZkIgld HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/7.0; 1ButtonTaskbar)
+Cookie: alphabetically=main; privilege=tentative; latency=range; SESSIONID=0ed05c746c441214e59f8bb793f2bc6a28b7ed103728ba60069263c4d0d72688a41c6f700a10f6454dbcf83c891cdda2
+

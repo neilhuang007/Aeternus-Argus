@@ -1,0 +1,13 @@
+PUT /composite/multi/initiative?rapid=detect&eval=elastic&range=MzguIFNlbGVjdCB5b3VyIGZhdm9yaXRlIHF1b3RlIGZyb20gdGhlIGJvb2suCg%3D%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-T530NU Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.84 Safari/537.36
+Cookie: fault%20tolerance=build; escalate=hypervisor; SESSIONID=9b151b8c912a81bb70432628e3ce74be9576d77f44f50ea770d95c2d0b2e6920c9402b66001fbc1632c6d2895c98a9bd
+

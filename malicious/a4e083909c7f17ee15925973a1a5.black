@@ -1,0 +1,13 @@
+HEAD /tilde/permission/link/strategy?simultaneously=integration&traceability=%09%5B%20%22%5Cu0069%5Cu006E%5Cu0064%5Cu0065%5Cu0063%5Cu0069%5Cu0073%5Cu0069%5Cu0076%5Cu0065%22%0D%2C%20%22%5Cu004D%5Cu0053%5Cu0041%5Cu006A%5Cu0049%5Cu0047%5Cu004a%5Cu0073%5Cu0059%5Cu0058%5Cu0070%5Cu006c%5Cu0063%5Cu006D%5Cu006c%5Cu0074%5Cu0059%5Cu0057%5Cu0064%5Cu006C%5Cu0063%5Cu0032%5Cu004E%5Cu0031%5Cu0063%5Cu006e%5Cu004a%5Cu006c%5Cu0062%5Cu006E%5Cu0052%5Cu0074%5Cu0059%5Cu0058%5Cu004E%5Cu0072%5Cu0062%5Cu0047%5Cu0056%5Cu006e%5Cu005a%5Cu0057%5Cu0035%5Cu006B%5Cu0059%5Cu006d%5Cu0078%5Cu0068%5Cu0059%5Cu0032%5Cu0074%5Cu0073%5Cu0061%5Cu0058%5Cu004e%5Cu0030%5Cu0049%5Cu0041%5Cu0070%5Cu0042%5Cu0054%5Cu006B%5Cu0051%5Cu0041%5Cu004d%5Cu0054%5Cu0030%5Cu0078%22%0A%5D%0A HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A365 Safari/600.1.4
+Cookie: durability=deduce; mapping=assign; main=encryption; SESSIONID=7102b6d42183fbbf8c7a091d03fd270a85831d1eb2703e95d638a9d885b42f3f1319fda6407aff7cc5e03b36fa264c5d
+

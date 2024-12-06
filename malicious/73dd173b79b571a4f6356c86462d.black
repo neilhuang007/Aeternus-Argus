@@ -1,0 +1,13 @@
+DELETE /agnostic?minus=furthermore&at=percent&agility=%22%29%29%0DOr%00/%2A%20record%0Deventspassedsettingscolordsaturdaywtaismallest%0Aargumentsspotify%20%2A/slEeP%285%29%3D%22 HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.3; KFTHWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.0.0 Safari/537.36
+Cookie: dedicated=bogus; access=access; optimization=restriction; SESSIONID=e11d6bb4918ce37ae08bec47e799d66ca1554e3611c85459ee812a5fe073f2eacf27453190ba83d8dd1015ea82e4d3e5
+

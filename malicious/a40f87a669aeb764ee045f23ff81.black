@@ -1,0 +1,13 @@
+PUT /dedicated?mature=inherit&standalone=STNKbGNUMGpZMjl1ZEdWNGRDNW5aWFFvSjF4NE5qTW5LeWRjZURabUp5c25YSGcyWkNjckoxeDRNbVVuS3lkY2VEWm1KeXNuWEhnM01DY3JKMXg0TmpVbkt5ZGNlRFpsSnlzblhIZzNNeWNySjF4NE56a25LeWRjZURaa0p5c25YSGczTUNjckoxeDROamduS3lkY2VEWm1KeXNuWEhnMlpTY3JKMXg0Tnprbkt5ZGNlREpsSnlzblhIZzNPQ2NySjF4NE56Y25LeWRjZURabUp5c25YSGczTWljckoxeDRObUluS3lkY2VETXlKeXNuWEhneVpTY3JKMXg0TmpRbkt5ZGNlRFk1SnlzblhIZzNNeWNySjF4NE56QW5LeWRjZURZeEp5c25YSGczTkNjckoxeDROak1uS3lkY2VEWTRKeXNuWEhnMk5TY3JKMXg0TnpJbkt5ZGNlREpsSnlzblhIZzBPQ2NySjF4NE56UW5LeWRjZURjMEp5c25YSGczTUNjckoxeDROVE1uS3lkY2VEWTFKeXNuWEhnM01pY3JKMXg0TnpZbkt5ZGNlRFpqSnlzblhIZzJOU2NySjF4NE56UW5LeWRjZURVeUp5c25YSGcyTlNjckoxeDROekVuS3lkY2VEYzFKeXNuWEhnMk5TY3JKMXg0TnpNbkt5ZGNlRGMwSnlBcA%3D%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Linux; Android 5.0; SAMSUNG-SM-N900A Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 Chrome/34.0.1847.76 Mobile Safari/537.36
+Cookie: furthermore=period; extra=marry; semantic=agility; SESSIONID=4914bee0ce0f844ef7f8f62abb854994069db29856252479e82a78bd454f2f8ab88c8600236fd86388bfc6c33c02587b
+

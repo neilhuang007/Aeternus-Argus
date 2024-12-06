@@ -1,0 +1,13 @@
+POST /greater%20than?pong=internal&minus=post-mortem&hyphen=TGk0dlYwVkNMVWxPUmk5M1pXSXVlRzFz HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (compatible; Windows NT 6.1; Catchpoint) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36
+Cookie: extra=strangler%20pattern; prepare=subscribe; SESSIONID=1382dc3c974e584fe86852caac36bb76cff934d764f685b3b0ae6c730738c57905aca06c03aa5a2be88b6afbc078023e
+

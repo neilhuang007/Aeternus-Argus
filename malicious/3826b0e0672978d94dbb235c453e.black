@@ -1,0 +1,13 @@
+PUT /traversal?create=scope&sophisticated=resource&region=period&populate=%5B%5B%20%5B29%20%2C%22%5Cu0061%5Cu0064%5Cu0061%5Cu0070%5Cu0074%5Cu0065%5Cu0072%22%20%5D%2C11%2C%09%22%5Cu004C%5Cu0069%5Cu0034%5Cu0076%5Cu0056%5Cu0030%5Cu0056%5Cu0043%5Cu004C%5Cu0055%5Cu006c%5Cu004F%5Cu0052%5Cu0069%5Cu0039%5Cu0033%5Cu005a%5Cu0057%5Cu0049%5Cu0075%5Cu0065%5Cu0047%5Cu0031%5Cu0073%22%0A%5D%0A%09%5D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.3; en-us; KFTHWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.68 like Chrome/39.0.2171.93 Safari/537.36
+Cookie: throughput=angle%20brackets; SESSIONID=eca4bbc032092ef893629cfe3b1c92b3bb5da3c98d034a75a85f801c5d1ddd2e59a0f62ad5ae37afee96a21d3f88135e
+

@@ -1,0 +1,13 @@
+GET /?analyze=tolerance&cost-effective=ephemeral&less%20than=hierarchical&handler=MSkgIyB3cmFwaGVscHVzZXNtYXh0aG9udW5rbm93bmxlZ2VuZHJ0c3BmYWNlZWRpdCAKT3IKLS0gcGF0aGFsd2F5c3Byb3Bzd2F0Y2huYXZpZ2F0aW9ucmF0aW5nZGxuYXNsb3dpbXBsZW1lbnRhdGlvbiAKQmVOY2htYXJrKDEwMDAwMDAwLE1ENSgxKSkj HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; LCJB; rv:11.0) like Gecko
+Cookie: upwards%20arrow=integration; subsidiary=console; decouple=agnostic; SESSIONID=6f94faf2af8e8b473ca415d090cbb52ed59938511413bcf052833ca550bfc5dddf7d4fe9e3e35f8bbd17d32b716fda9a
+

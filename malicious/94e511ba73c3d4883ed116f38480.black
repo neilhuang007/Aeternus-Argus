@@ -1,0 +1,13 @@
+GET /?region=permutation&less%20than=ewoKIlx1MDA2N1x1MDA3Mlx1MDA2MVx1MDA2ZVx1MDA3NVx1MDA2Q1x1MDA2MVx1MDA3MiI6CQkiXHUwMDNjXHUwMDYyXHUwMDYxXHUwMDczXHUwMDY1XHUwMDIwXHUwMDY4XHUwMDcyXHUwMDY1XHUwMDY2XHUwMDNkXHUwMDIyXHUwMDZBXHUwMDYxXHUwMDc2XHUwMDYxXHUwMDczXHUwMDYzXHUwMDcyXHUwMDY5XHUwMDcwXHUwMDc0XHUwMDNhXHUwMDIyXHUwMDNlXHUwMDNjXHUwMDJmXHUwMDYyXHUwMDYxXHUwMDczXHUwMDY1XHUwMDNFIg0KfQ%3D%3D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.154 Safari/537.36 LBBROWSER
+Cookie: customized=underlying; SESSIONID=a671f1a3bce050082f69b0d0d9a64e4e908b76bf20d4226bc60b2109c60bfd7826d0440a844b26fa70b6eeac10ed85f4
+

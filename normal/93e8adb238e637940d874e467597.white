@@ -1,0 +1,14 @@
+GET /push/?data=The%20teacher%20explained%20the%20rule:%20in%20the%20case%20when%20a%20student%20is%20absent,%20they%20should%20inform%20the%20class%20beforehand.%20then,%20the%20class%20can%20proceed%20without%20them. HTTP/1.1
+Host: fe-static.xhscdn.com
+Sec-Ch-Ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://agree.xiaohongshu.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+

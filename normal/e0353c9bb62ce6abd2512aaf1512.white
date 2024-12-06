@@ -1,0 +1,13 @@
+DELETE /bind/route/bottleneck/redacted?ampersand=slash&block=left%20arrow&traceability=NDMuIFRoZSBkZWNpc2lvbiB3YXMgbWFkZSBieSB0aGUgdW5pb24gbWVtYmVycy4K HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 TheWorld 6
+Cookie: complexity=provide; explicit=inter; HTML=customized; SESSIONID=9c4233fa78b9ea2ed8a7ce1621f05ae1a1c5b85f50ad87c8a07ab9ded4e2771e0a544235f10198a7702c6bdebddcfbbd
+

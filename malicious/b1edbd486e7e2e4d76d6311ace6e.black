@@ -1,0 +1,13 @@
+POST /message/rapid/mature?control=severity&sort=depreciation&stroke=handle&capture=%5B%0A%22%5Cu0049%5Cu0069%5Cu006b%5Cu0070%5Cu0041%5Cu0045%5Cu0039%5Cu0053%5Cu0041%5Cu0043%5Cu004d%5Cu0067%5Cu0064%5Cu006D%5Cu006c%5Cu0079%5Cu0064%5Cu0048%5Cu0056%5Cu0068%5Cu0062%5Cu0047%5Cu0035%5Cu0076%5Cu0063%5Cu0032%5Cu004e%5Cu0079%5Cu0061%5Cu0058%5Cu0042%5Cu0030%5Cu0064%5Cu0057%5Cu0035%5Cu0072%5Cu0062%5Cu006D%5Cu0039%5Cu0033%5Cu0062%5Cu006E%5Cu004e%5Cu006c%5Cu0063%5Cu0033%5Cu004e%5Cu0070%5Cu0062%5Cu0032%5Cu0034%5Cu0067%5Cu0043%5Cu006C%5Cu004E%5Cu004d%5Cu0052%5Cu0057%5Cu0056%5Cu0051%5Cu004B%5Cu0044%5Cu0055%5Cu0070%5Cu0050%5Cu0053%5Cu0049%5Cu003d%22%20%2C%0D25%0D%2C%09true%2C38%5D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (iPad; CPU OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/45.0.2454.68 Mobile/12H321 Safari/600.1.4
+Cookie: malware=trajectory; SESSIONID=ed6d2175d40ab6063c59d69ef7a9d903bda6d1bd500c84d9f337abc4c9e7d9e4cb55d9647ff7b41d7831f83595246ec4
+

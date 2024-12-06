@@ -1,0 +1,13 @@
+GET /downwards%20arrow/hash?scenario=%5B%0A32%2C%22%5Cu003B%5Cu0020%5Cu0065%5Cu0063%5Cu0068%5Cu006F%5Cu0020%5Cu0060%5Cu002F%5Cu0062%5Cu0069%5Cu006E%5Cu002f%5Cu0063%5Cu0061%5Cu0074%5Cu0020%5Cu002f%5Cu0065%5Cu0074%5Cu0063%5Cu002F%5Cu0068%5Cu006F%5Cu0073%5Cu0074%5Cu0073%5Cu0060%22%0D%5D HTTP/1.1
+Host: waf-ce.chaitin.cn
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; MALNJS; rv:11.0) like Gecko
+Cookie: post-mortem=concatenate; seek=parse; strength=subscribe; SESSIONID=e97758889b8c7c1563d36dd0f6156c723919483b86aa3545e9ee464e567ad9f2b97569f17edfebaacbb438068c324468
+
