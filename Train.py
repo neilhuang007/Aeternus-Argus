@@ -13,16 +13,12 @@ from optuna.pruners import MedianPruner
 
 from Utils import load_scenario_data
 
-########################
-# Folder Paths
-########################
+
+# we have to load different datasets different
 sinarioA1path = 'vpndata/Scenario A1-ARFF'
 sinarioA2path = 'vpndata/Scenario A2-ARFF'
 sinarioBpath  = 'vpndata/Scenario B-ARFF'
 
-########################
-# Features of Interest
-########################
 packet_iat_features = [
     'min_fiat', 'max_fiat', 'mean_fiat',
     'min_biat', 'max_biat', 'mean_biat',
@@ -49,8 +45,11 @@ totalframe = []
 
 # ok so we added loading based on sinario, forgot to record, this func tells us the legitamancy of the data
 totalframe.append(load_scenario_data(sinarioA1path, scenario_label='A1'))
+# A1 is the only one that has a class1 column, the rest we have to determine if it is a vpn or not
 totalframe.append(load_scenario_data(sinarioA2path, scenario_label='A2'))
+# A2 is based on the file name, if it has NO-VPN in the name then it is not a vpn
 totalframe.append(load_scenario_data(sinarioBpath,  scenario_label='B'))
+#B is based on the class1 as well, if its somethign like Stream-VPN then it is a vpn, if its -NOVPN then its not
 
 # Combine all frames
 df = pd.concat(totalframe, ignore_index=True)
@@ -75,10 +74,11 @@ y = df['class1']
 
 # Filter the DataFrame to only keep features we care about (+ 'class1')
 available_features = [f for f in all_features if f in df.columns]
+print(f"Available features: {available_features}")
 df = df[available_features + ['class1']]
-
+print(df)
 kf = StratifiedKFold(n_splits=10, shuffle=True, random_state=42)
-
+print(kf)
 
 def objective(trial):
     # Parameter search space for XGBoost
@@ -129,6 +129,7 @@ def objective(trial):
 
 
 pruner = MedianPruner(n_warmup_steps=5)
+#pruner that prunes trials that are not in the top 50% of the trials, so stop when results are getting worse
 study = create_study(direction='maximize', pruner=pruner)
 study.optimize(objective, n_trials=50)
 
@@ -142,7 +143,7 @@ final_model = XGBClassifier(
     **best_params,
     tree_method='hist',
     eval_metric='mae',
-    device="cuda"  # If you want GPU usage; remove if CPU-only
+    device="cuda"  # cuda makes it faster
 )
 
 final_model.fit(df[available_features], y)
@@ -150,6 +151,9 @@ final_model.fit(df[available_features], y)
 # Calculate ROC curve and AUC
 fpr, tpr, thresholds = roc_curve(y, final_model.predict_proba(df[available_features])[:, 1])
 roc_auc = auc(fpr, tpr)
+#AUC is the area under the curve, the higher the better
+#FPR is the false positive rate
+#TPR is the true positive rate
 
 # Plot ROC curve
 plt.figure(figsize=(10, 6))
@@ -191,3 +195,5 @@ else:
 # now we have to train the threshold since the output is ultimately a list of probabilities
 # we can use the roc curve to determine the best threshold
 # https://www.iguazio.com/glossary/classification-threshold/
+# www.kaggle.com/code/para24/xgboost-stepwise-tuning-using-optuna#6.-What-is-Optuna?
+# https://optuna.readthedocs.io/en/stable/reference/generated/optuna.trial.Trial.html#optuna.trial.Trial.suggest_float
