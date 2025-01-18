@@ -71,6 +71,11 @@ for col in df.columns:
 
 # Now we have a consistent 'class1' column: 0 => Non-VPN, 1 => VPN
 y = df['class1']
+print(y)
+
+# pirnt vpn and non vpn counts
+print(f"VPN count: {y.sum()}")
+print(f"Non-VPN count: {len(y) - y.sum()}")
 
 # Filter the DataFrame to only keep features we care about (+ 'class1')
 available_features = [f for f in all_features if f in df.columns]
