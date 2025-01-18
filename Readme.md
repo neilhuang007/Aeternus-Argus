@@ -325,3 +325,83 @@ Click to expand for explaination for each param.
 </details>
 
 
+## Contrubuting
+
+Sure! Below is the update wrapped in markdown, detailing the section where you need to add instructions on how to contribute and run the project:
+
+```markdown
+## How to Contribute
+
+We welcome contributions to improve this project! If you'd like to contribute, please follow the steps below.
+
+### Steps to Contribute
+
+1. **Fork the repository**: Click on the "Fork" button at the top of the project page to create your own copy of the repository.
+2. **Clone your fork**: Use the following command to clone your fork to your local machine.
+   ```bash
+   git clone https://github.com/your-username/your-forked-repository.git
+   ```
+3. **Create a new branch**: Always create a new branch for your changes.
+   ```bash
+   git checkout -b feature-branch-name
+   ```
+4. **Make your changes**: Modify the codebase as required. If you're adding a new feature or fixing a bug, ensure you update or add corresponding tests.
+5. **Commit your changes**: Use a meaningful commit message describing what was changed.
+   ```bash
+   git commit -m "Your commit message"
+   ```
+6. **Push your changes**: Push your changes to your fork.
+   ```bash
+   git push origin feature-branch-name
+   ```
+7. **Create a pull request**: Go to your fork on GitHub and create a pull request. Provide a clear description of your changes in the pull request.
+
+### Code of Conduct
+- Be respectful and considerate to all contributors.
+- Follow the existing code style, conventions, and best practices.
+- Ensure that your contributions are well-documented and easy to understand.
+
+## How to Run the Project
+
+### Requirements
+
+Before you can run the project, ensure you have the following dependencies installed:
+
+- Python 3.x
+- Libraries: `numpy`, `pandas`, `scikit-learn`, `xgboost`, `optuna`, `matplotlib`, `seaborn`, `requests`, `tqdm`.
+
+You can install the required libraries using `pip`:
+```bash
+pip install -r requirements.txt
+```
+
+### Running the Project
+
+1. **Set up the environment**:
+   Clone the repository and navigate to the project directory.
+   ```bash
+   git clone https://github.com/your-username/your-forked-repository.git
+   cd your-forked-repository
+   ```
+
+2. **Download the dataset**:
+   Use the `SetupData.py` script to download the datasets from the provided URLs.
+   ```bash
+   python SetupData.py
+   ```
+
+3. **Train the model**:
+   After setting up the dataset, run the `Train.py` script to start training the model.
+   ```bash
+   python Train.py
+   ```
+
+4. **Evaluation and Results**:
+   The model will train and output the evaluation metrics, including accuracy, AUC score, and feature importance. You can view the results directly in the console or saved plots.
+
+### Testing
+
+If you make changes to the code, ensure you write corresponding tests to verify your changes. To run the tests, you can use `pytest`:
+```bash
+pytest
+```
