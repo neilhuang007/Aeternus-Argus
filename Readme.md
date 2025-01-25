@@ -329,7 +329,7 @@ Click to expand for explaination for each param.
 
 Sure! Below is the update wrapped in markdown, detailing the section where you need to add instructions on how to contribute and run the project:
 
-```markdown
+
 ## How to Contribute
 
 We welcome contributions to improve this project! If you'd like to contribute, please follow the steps below.
@@ -405,3 +405,43 @@ If you make changes to the code, ensure you write corresponding tests to verify 
 ```bash
 pytest
 ```
+
+## Related works
+
+
+The classification of encrypted Virtual Private Network (VPN) traffic has garnered significant attention due to the proliferation of encryption technologies and the imperative for robust network security. Traditional traffic analysis methods, such as Deep Packet Inspection (DPI), have become less effective as encryption obscures payload data, necessitating the development of advanced classification techniques.
+
+### Deep Learning Approaches
+
+Recent studies have explored deep learning methodologies for VPN traffic classification. Sun et al. proposed a method that transforms network traffic into images using a concept called Packet Block, which aggregates continuous packets in the same direction. These images are then processed using Convolutional Neural Networks (CNNs) to identify application types, achieving high accuracy rates on datasets like OpenVPN and ISCX-Tor.
+https://mdpi-res.com/d_attachment/electronics/electronics-12-00115/article_deploy/electronics-12-00115.pdf?version=1672138367
+
+Similarly, Lotfollahi et al. introduced "Deep Packet," an approach that integrates feature extraction and classification using deep learning. Their framework employs stacked autoencoders and CNNs to classify network traffic, demonstrating high recall rates in both application identification and traffic categorization tasks.
+https://arxiv.org/pdf/1709.02656
+
+### Graph-Based Models
+
+Graph-based models have also been investigated for their efficacy in traffic classification. Xu et al. developed VT-GAT, a VPN traffic classification model based on Graph Attention Networks (GAT). This model constructs traffic behavior graphs from raw data and utilizes GAT to extract behavioral features, achieving superior performance compared to traditional machine learning and deep learning methods.
+https://link.springer.com/chapter/10.1007/978-3-031-24386-8_2
+
+### Machine Learning Techniques
+
+Machine learning algorithms have been applied to classify VPN traffic by analyzing time-related features. Mohamed and Kurnaz presented a method utilizing Artificial Neural Networks (ANN) to identify VPN traffic flows, achieving high accuracy in distinguishing between benign and malicious activities.
+https://www.techscience.com/cmc/v80n1/57371
+
+Additionally, Nigmatullin et al. proposed the Differentiation of Sliding Rescaled Ranges (DSRR) approach for traffic preprocessing, which, when combined with Random Forest classifiers, demonstrated high precision and recall in distinguishing VPN from non-VPN traffic.
+https://arxiv.org/pdf/2012.08356
+
+### Transformer-Based Models
+
+Transformer-based models have been explored for their potential in encrypted traffic classification. Lin et al. introduced ET-BERT, a model that pre-trains deep contextualized datagram-level representations from large-scale unlabeled data. This model achieved state-of-the-art performance across multiple encrypted traffic classification tasks, highlighting the effectiveness of transformer architectures in this domain.
+https://arxiv.org/pdf/2202.06335
+
+### Comparative Analyses
+
+Comparative studies have evaluated various machine learning algorithms for VPN traffic classification. For instance, Draper-Gil et al. assessed different classifiers using time-related features to distinguish between VPN and non-VPN traffic, providing insights into the strengths and limitations of each approach.
+https://www.tandfonline.com/doi/pdf/10.1080/23742917.2017.1321891
+
+## citations
+
+Gerard Drapper Gil, Arash Habibi Lashkari, Mohammad Mamun, Ali A. Ghorbani, "Characterization of Encrypted and VPN Traffic Using Time-Related Features", In Proceedings of the 2nd International Conference on Information Systems Security and Privacy(ICISSP 2016) , pages 407-414, Rome, Italy.
