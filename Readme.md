@@ -2,9 +2,45 @@
 
 ## Background
 
-This project focuses on developing a machine learning model to classify network traffic as either VPN or Non-VPN. Using features extracted from network flow data, the goal is to distinguish between these two types of traffic using machine learning techniques. The dataset is sourced from the **ISCX VPN and Non-VPN 2016** dataset, and the model uses **XGBoost** with **Optuna** for hyperparameter optimization. 
+## Similar Works
 
-The classification of VPN traffic is important for several use cases such as traffic management, security, and network performance analysis. This project aims to build a robust classifier that can differentiate between VPN and Non-VPN traffic using data-driven methods.
+<details>
+<summary>Click to expand</summary>
+
+The classification of encrypted Virtual Private Network (VPN) traffic has garnered significant attention due to the proliferation of encryption technologies and the imperative for robust network security. Traditional traffic analysis methods, such as Deep Packet Inspection (DPI), have become less effective as encryption obscures payload data, necessitating the development of advanced classification techniques.
+
+#### **Deep Learning Approaches**
+- **CNN-Based VPN Traffic Classification:** Sun et al. proposed a method that transforms network traffic into images using a concept called Packet Block, which aggregates continuous packets in the same direction. These images are then processed using Convolutional Neural Networks (CNNs) to identify application types, achieving high accuracy rates on datasets like OpenVPN and ISCX-Tor.  
+  [Read the paper](https://mdpi-res.com/d_attachment/electronics/electronics-12-00115/article_deploy/electronics-12-00115.pdf?version=1672138367)
+
+- **Deep Packet Analysis with Autoencoders:** Lotfollahi et al. introduced "Deep Packet," an approach that integrates feature extraction and classification using deep learning. Their framework employs stacked autoencoders and CNNs to classify network traffic, demonstrating high recall rates in both application identification and traffic categorization tasks.  
+  [Read the paper](https://arxiv.org/pdf/1709.02656)
+
+#### **Graph-Based Models**
+- **Graph Attention Networks for VPN Detection:** Xu et al. developed VT-GAT, a VPN traffic classification model based on Graph Attention Networks (GAT). This model constructs traffic behavior graphs from raw data and utilizes GAT to extract behavioral features, achieving superior performance compared to traditional machine learning and deep learning methods.  
+  [Read the paper](https://link.springer.com/chapter/10.1007/978-3-031-24386-8_2)
+
+#### **Machine Learning Techniques**
+- **Artificial Neural Networks for VPN Classification:** Mohamed and Kurnaz presented a method utilizing Artificial Neural Networks (ANN) to identify VPN traffic flows, achieving high accuracy in distinguishing between benign and malicious activities.  
+  [Read the paper](https://www.techscience.com/cmc/v80n1/57371)
+
+- **Random Forest-Based Differentiation Approach:** Nigmatullin et al. proposed the Differentiation of Sliding Rescaled Ranges (DSRR) approach for traffic preprocessing, which, when combined with Random Forest classifiers, demonstrated high precision and recall in distinguishing VPN from non-VPN traffic.  
+  [Read the paper](https://arxiv.org/pdf/2012.08356)
+
+#### **Transformer-Based Models**
+- **ET-BERT for Encrypted Traffic Classification:** Lin et al. introduced ET-BERT, a model that pre-trains deep contextualized datagram-level representations from large-scale unlabeled data. This model achieved state-of-the-art performance across multiple encrypted traffic classification tasks, highlighting the effectiveness of transformer architectures in this domain.  
+  [Read the paper](https://arxiv.org/pdf/2202.06335)
+
+#### **Comparative Analyses**
+- **Comparing Machine Learning Models for VPN Classification:** Draper-Gil et al. assessed different classifiers using time-related features to distinguish between VPN and non-VPN traffic, providing insights into the strengths and limitations of each approach.  
+  [Read the paper](https://www.tandfonline.com/doi/pdf/10.1080/23742917.2017.1321891)
+
+---
+
+### **Citations**
+- Gerard Drapper Gil, Arash Habibi Lashkari, Mohammad Mamun, Ali A. Ghorbani, "Characterization of Encrypted and VPN Traffic Using Time-Related Features", In Proceedings of the 2nd International Conference on Information Systems Security and Privacy (ICISSP 2016), pages 407-414, Rome, Italy.
+
+</details>
 
 ## Data Collection
 
@@ -404,6 +440,27 @@ pip install -r requirements.txt
 If you make changes to the code, ensure you write corresponding tests to verify your changes. To run the tests, you can use `pytest`:
 ```bash
 pytest
+```
+
+## Self Collection of Data
+
+To collect and process your own network data, follow these steps:
+
+1. Export your captured packets from Wireshark (or any packet capturing application) in a pcap format. Save the file with a suitable name, for example, `my_capture.pcap`.
+
+2. Place your exported pcap file in the appropriate folder (e.g., `training-data`).
+
+3. Open the `GenerateTrainingData.py` file and update the input parameters:
+   - Replace the original pcap file name with your new file name (e.g., change `'training-data/trainign1.pcap'` to `'training-data/my_capture.pcap'`).
+   - Set the desired output file name (e.g., change `'training-data/flow_features.xlsx'` to `'training-data/my_flow_features.xlsx'`).
+   - Update the `isvpn` flag as needed (`True` if the captured data represents VPN traffic, or `False` if it is not).
+
+4. Run the `GenerateTrainingData.py` script. The script will process the packets in your pcap file and generate the Excel file containing the extracted flow features.
+
+For example, your function call at the end of the script may look like this:
+
+```python
+extract_flow_features('training-data/my_capture.pcap', 'training-data/my_flow_features.xlsx', True)
 ```
 
 ## Related works
