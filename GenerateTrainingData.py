@@ -1,10 +1,11 @@
 import os
 import numpy as np
 import pandas as pd
-from scapy.all import rdpcap
+from scapy.all import rdpcap, AsyncSniffer, wrpcap
+from datetime import datetime
+
 
 def extract_flow_features(pcap_file, output_excel, isvpn, burst_threshold=1.0):
-    # Check if the PCAP file exists
     if not os.path.exists(pcap_file):
         print(f"[ERROR] PCAP file not found: {pcap_file}")
         return
@@ -22,8 +23,6 @@ def extract_flow_features(pcap_file, output_excel, isvpn, burst_threshold=1.0):
         output_excel = output_excel.replace('.xlsx', '_vpn.xlsx')
         print(f"[INFO] VPN scenario detected; output file: {output_excel}")
 
-
-    # Group packets by flow and store (time, length)
     flows = {}
     for pkt in packets:
         if pkt.haslayer('IP'):
@@ -43,39 +42,31 @@ def extract_flow_features(pcap_file, output_excel, isvpn, burst_threshold=1.0):
 
     print(f"[DEBUG] Total flows identified: {len(flows)}")
 
-    # List to hold each flow's feature dictionary
     rows = []
-
     for key, pkt_info in flows.items():
-        # Sort packets by arrival time and convert times to float
         pkt_info.sort(key=lambda x: float(x[0]))
         times = [float(t) for t, l in pkt_info]
         sizes = [l for t, l in pkt_info]
         num_packets = len(times)
         duration = times[-1] - times[0] if num_packets > 1 else 0
 
-        # --- Packet Inter-Arrival Times (fiat) ---
-        fiat = [float(times[i] - times[i-1]) for i in range(1, num_packets)]
+        fiat = [float(times[i] - times[i - 1]) for i in range(1, num_packets)]
         min_fiat = min(fiat) if fiat else 0
         max_fiat = max(fiat) if fiat else 0
         mean_fiat = np.mean(fiat) if fiat else 0
 
-        # --- Byte Inter-Arrival Times (biat) ---
-        # Define as: fiat_i divided by the size of packet i (seconds per byte)
         biat = []
         for i in range(1, num_packets):
             if sizes[i] > 0:
-                biat.append(fiat[i-1] / sizes[i])
+                biat.append(fiat[i - 1] / sizes[i])
         min_biat = min(biat) if biat else 0
         max_biat = max(biat) if biat else 0
         mean_biat = np.mean(biat) if biat else 0
 
-        # --- Flow Inter-Arrival Times (flowiat) ---
-        # Identify burst boundaries using burst_threshold; record gaps between bursts.
         flowiat_list = []
         current_burst_end = times[0]
         for i in range(1, num_packets):
-            gap = float(times[i] - times[i-1])
+            gap = float(times[i] - times[i - 1])
             if gap < burst_threshold:
                 current_burst_end = times[i]
             else:
@@ -90,8 +81,6 @@ def extract_flow_features(pcap_file, output_excel, isvpn, burst_threshold=1.0):
         else:
             min_flowiat = max_flowiat = mean_flowiat = std_flowiat = 0
 
-        # --- Active and Idle Times ---
-        # Use burst_threshold to classify each fiat gap.
         active_times = [gap for gap in fiat if gap < burst_threshold]
         idle_times = [gap for gap in fiat if gap >= burst_threshold]
         min_active = min(active_times) if active_times else 0
@@ -103,12 +92,10 @@ def extract_flow_features(pcap_file, output_excel, isvpn, burst_threshold=1.0):
         max_idle = max(idle_times) if idle_times else 0
         std_idle = np.std(idle_times) if idle_times else 0
 
-        # --- Speed Features ---
         flowPktsPerSecond = num_packets / duration if duration > 0 else num_packets
         total_bytes = sum(sizes)
         flowBytesPerSecond = total_bytes / duration if duration > 0 else total_bytes
 
-        # Build the feature row (including flow identifier fields)
         row = {
             'src': key[0],
             'dst': key[1],
@@ -139,7 +126,6 @@ def extract_flow_features(pcap_file, output_excel, isvpn, burst_threshold=1.0):
         }
         rows.append(row)
 
-    # Create DataFrame from all flows
     df = pd.DataFrame(rows)
     print(f"[DEBUG] Feature DataFrame shape: {df.shape}")
 
@@ -150,4 +136,56 @@ def extract_flow_features(pcap_file, output_excel, isvpn, burst_threshold=1.0):
         print(f"[ERROR] Failed to write Excel file: {e}")
 
 
-extract_flow_features('training-data/trainign1.pcap', 'training-data/flow_features.xlsx',True)
+def main():
+    proxy_ip = input("Enter the proxy IP address (or leave blank to auto-detect): ").strip()
+    proxy_port = input("Enter the proxy port (or leave blank if not applicable): ").strip()
+
+    if not proxy_ip:
+        print("[INFO] Auto-detect not implemented, please provide a proxy IP.")
+        return
+
+    if proxy_port:
+        bpf_filter = f"host {proxy_ip} and port {proxy_port}"
+    else:
+        bpf_filter = f"host {proxy_ip}"
+
+    print(f"[INFO] Starting packet capture with filter: {bpf_filter}")
+    print("[INFO] Type 'stop' to end capture.")
+
+    sniffer = AsyncSniffer(filter=bpf_filter)
+    sniffer.start()
+
+    while True:
+        command = input()
+        if command.strip().lower() == "stop":
+            break
+
+    sniffer.stop()
+    packets = sniffer.results
+
+    if packets:
+        print(f"[DEBUG] {len(packets)} packet(s) captured.")
+        try:
+            first_summary = packets[0].summary()
+            print(f"[DEBUG] First packet summary: {first_summary}")
+        except Exception as e:
+            print(f"[ERROR] Failed to get packet summary: {e}")
+    else:
+        print("[DEBUG] No packets captured.")
+
+    now = datetime.now().strftime("%Y%m%d-%H%M%S")
+    pcap_file = f"vpndata/training-data-{now}.pcap"
+    try:
+        wrpcap(pcap_file, packets)
+        print(f"[INFO] Saved captured packets to {pcap_file}")
+    except Exception as e:
+        print(f"[ERROR] Failed to write pcap file: {e}")
+        return
+
+    output_excel = f"vpndata/training-data-{now}.xlsx"
+    extract_flow_features(pcap_file, output_excel, False)
+    print("[INFO] Flow extraction complete.")
+
+
+if __name__ == '__main__':
+    main()
